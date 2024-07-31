@@ -42,6 +42,7 @@
         align-items: flex-start;
         word-spacing: 0.2rem;
         filter: drop-shadow(0 0 0.75rem rgb(112, 112, 112));
+        /* overflow: auto; */
       }
 
       .ui-text {
@@ -69,20 +70,22 @@
         display: flex;
         flex-direction: column;
         color: rgb(238, 238, 238);
-        user-select: none;
+
       }
+      
     </style>
     <div id="app">
-      <div id="ui">
+      <div>
         <p class="note">Tap/Click around to move</p>
-      <div id="textbox-container" style="display: none">
-        <div id="textbox">
-          <p id="dialogue" class="ui-text"></p>
-          <div class="btn-container">
-            <button id="close" class="ui-close-btn">Close</button>
+
+        <div id="textbox-container" style="display: none">
+          <div id="textbox">
+            <p id="dialogue" class="ui-text"></p>
+            <div class="btn-container">
+              <button id="close" class="ui-close-btn">Close</button>
+            </div>
           </div>
         </div>
-
       </div>
       <canvas id="game"></canvas>
     </div>
