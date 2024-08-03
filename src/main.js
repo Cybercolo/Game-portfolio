@@ -6,12 +6,12 @@ k.loadSprite("spritesheet", "/spritesheet.png" , {
     sliceX: 39,
     sliceY: 31,
     anims: {
-        "idle-down": 936,
-        "walk-down": { from: 936, to: 939, loop: true, speed: 8 },
-        "idle-side": 975,
-        "wlak-side": { from: 975, to: 978, loop: true, speed: 8 },
-        "idle-up": 1014,
-        "walk-up": { from: 1015, to: 1017, loop: true, speed: 8 },
+        "idle-down": 952,
+        "walk-down": { from: 952, to: 955, loop: true, speed: 8 },
+        "idle-side": 991,
+        "wlak-side": { from: 991, to: 994, loop: true, speed: 8 },
+        "idle-up": 1030,
+        "walk-up": { from: 1030, to: 1033, loop: true, speed: 8 },
     },
 });
 
@@ -88,7 +88,7 @@ k.scene("main", async () => {
     });
 
     k.onUpdate(() => {
-        k.camPos(player.pos.x, player.pos.y -100);
+        k.camPos(player.pos.x, player.pos.y + 100);
     });
 
     k.onMouseDown((mouseBtn) => {
@@ -208,4 +208,3 @@ k.scene("main", async () => {
 
 
     k.go("main");
-
