@@ -2,9 +2,9 @@ export const scaleFactor = 4;
 
 export const dialogueData = {
   pc: `This is my PC. I work mostly in JavaScript/React/SQL these days.
-    this is my first game with KaboomJs. I also like Vue and Node and i have an intermediate certification on Mendix. Anyway regardless of the language, I like programming and learning.
+    this is my first game with KaboomJs. Anyway regardless of the language, I like programming and learning.
     Here is my <a href="https://github.com/Cybercolo" target="_blank">Github</a>!`,
-  "certifications": `This are my certifications. I hung it on the wall because I'm proud of them :) i study front-end development, IT support systems by Google and Mendix rapid and intermediate Certifications.`,
+  "cs-degree": `This are my certifications. I hung it on the wall because I'm proud of them :) i study front-end development, IT support systems by Google and Mendix rapid and intermediate Certifications.`,
   "sofa-table": `That's my sofa. I like to relax here and watch YouTube or Netflix.
   I also write an IT blog. Go read it here <a href="https://devj101.blogspot.com" target="_blank">my IT Blog</a>! `,
   tv: `That's my TV. I've been watching tech youtubers a lot recently`,
